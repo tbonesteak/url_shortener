@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hackerclone</title>
+  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/bootstrap_and_overrides.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/links.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-transition.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-alert.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-modal.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-tab.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-popover.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-button.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-affix.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap.js?body=1" type="text/javascript"></script>
+<script src="/assets/bootstrap.js?body=1" type="text/javascript"></script>
+<script src="/assets/links.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="etUl4ypgjdKkac5nbibYz2eaRUS1Mt53sOfYjYC52nw=" name="csrf-token" />
+</head>
+<body>
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">HACKER CLONE!</a>
+    <ul class="nav">
+      <li>
+      	<a href="/links/new">Submit</a>
+      </li>
+    </ul>
+    <ul class="nav pull-right">
+			  <li>
+			    <a href="/users/sign_in">Sign in</a>
+			  </li>
+			  <li>
+			    <a href="/users/sign_up">Sign up</a>
+			  </li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="container">
+  <table class="table table-condensed">
+  <tbody>
+  		<tr>
+  			<td>
+  				<a href="/links/1">^</a>
+  			<td>
+				<td>
+				  <a href="/links/1">THE BEST LINK EVER</a>
+				<td>
+				<td>
+				  
+				<td>
+			</tr>
+  		<tr>
+  			<td>
+  				<a href="/links/2">^</a>
+  			<td>
+				<td>
+				  <a href="/links/2">ANOTHER great ONE</a>
+				<td>
+				<td>
+				  
+				<td>
+			</tr>
+  		<tr>
+  			<td>
+  				<a href="/links/3">^</a>
+  			<td>
+				<td>
+				  <a href="/links/3">a really really really really really really really really really really great one</a>
+				<td>
+				<td>
+				  
+				<td>
+			</tr>
+  		<tr>
+  			<td>
+  				<a href="/links/4">^</a>
+  			<td>
+				<td>
+				  <a href="/links/4">THIS SHOULD WORK</a>
+				<td>
+				<td>
+				  
+				<td>
+			</tr>
+  		<tr>
+  			<td>
+  				<a href="/links/5">^</a>
+  			<td>
+				<td>
+				  <a href="/links/5">one for me</a>
+				<td>
+				<td>
+				  
+				<td>
+			</tr>
+  </tbody>
+</table>
+</div>
+
+</body>
+</html>

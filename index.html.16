@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SimpleBlog</title>
+  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/articles.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/articles.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="kJumXGP4RS9Wzy3bV8vDzOcWaiRCLgYirzry+b0AkT8=" name="csrf-token" />
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Simple Blog</h1>     
+<div class="row"> 
+  <div class="span4 offset8">
+    <span class="pull-right">
+      <a href="/articles/new" class="btn">New Article</a>
+    </span>
+  </div>
+</div>
+<hr>
+
+    
+
+<div id="ajax_test">
+<div class="article">
+<h3>For You &lt;3 ;-)</h3>
+<p>
+  How do I love thee? Let me count the ways.
+I love thee to the depth and breadth and height
+My soul can reach, when feeling out of sight
+For the ends of Being and ideal Grace.
+I love thee to the...
+  128
+  <br>
+  <a href="/articles/1">Show</a> |
+  <a href="/articles/1/edit">Edit</a> |
+  <a href="/articles/1" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+</p>
+</div><div class="article">
+<h3>another BETTER article</h3>
+<p>
+  With even BETTER body text!
+  5
+  <br>
+  <a href="/articles/2">Show</a> |
+  <a href="/articles/2/edit">Edit</a> |
+  <a href="/articles/2" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+</p>
+</div><div class="article">
+<h3>Does this work title</h3>
+<p>
+  We shall see.
+  3
+  <br>
+  <a href="/articles/3">Show</a> |
+  <a href="/articles/3/edit">Edit</a> |
+  <a href="/articles/3" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+</p>
+</div><div class="article">
+<h3>Did I break it? </h3>
+<p>
+  YES YOU DID
+  3
+  <br>
+  <a href="/articles/4">Show</a> |
+  <a href="/articles/4/edit">Edit</a> |
+  <a href="/articles/4" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+</p>
+</div><div class="article">
+<h3>I NOT MAKING HAY</h3>
+<p>
+  i felt the light of morn
+as though the light was born
+just sit and scent the corn
+as i not making hay
+
+i talk to ghosts of past
+but for the eye be cast
+oh time be burning fast 
+as i not mak...
+  126
+  <br>
+  <a href="/articles/5">Show</a> |
+  <a href="/articles/5/edit">Edit</a> |
+  <a href="/articles/5" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+</p>
+</div>
+</div>
+
+
+
+
+<div id="ajax_sort">
+<form accept-charset="UTF-8" action="/" data-remote="true" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<select id="order_by" name="order_by"><option value="word count">Word Count</option>
+<option value="title">Title</option>
+<option value="published">Date Published</option></select>
+<p>
+<input id="limit_3" name="limit" type="radio" value="3" />&nbsp;<label for="limit">Limit to 3</label>
+</p>
+<p>
+<input id="limit_2" name="limit" type="radio" value="2" />&nbsp;<label for="limit">Limit to 2</label>
+<input name="commit" type="submit" value="Sort Results" />
+</div>
+</p>
+
+  </div>
+
+</body>
+</html>

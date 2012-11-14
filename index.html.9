@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UrlShortener</title>
+  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/bootstrap_and_overrides.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-transition.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-alert.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-modal.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-tab.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-popover.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-button.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-affix.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap.js?body=1" type="text/javascript"></script>
+<script src="/assets/bootstrap.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="sj8/fMPhSdW0YEFwwhmKwK1JXtBWDR0YvGZhOf1OQYs=" name="csrf-token" />
+</head>
+<body>
+
+<div id="container_form">
+	<form accept-charset="UTF-8" action="/urls" class="new_url" data-remote="true" id="new_url" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="sj8/fMPhSdW0YEFwwhmKwK1JXtBWDR0YvGZhOf1OQYs=" /></div>
+
+	<div id="title">
+		<p style="line-heigth:24px">Yo dawg, I heard you like short urls?</p>
+	</div>
+
+	<div id="form">
+	  <div id="form_field">
+	  	<input class="input-xxlarge" id="url_full" name="url[full]" placeholder="Paste a link to shorten it." size="30" type="text" />
+	  </div>	
+	  <div id="form_button">
+	  <input class="btn btn-primary" method="post" name="commit" type="submit" value="Shorten" />
+	  </div>
+	</div>
+</form>
+</div>
+
+<div id="container_table">
+	<div id="url_table">
+		<table class="table table-condensed table-hover" id = "table_test">
+
+		  <caption class="all_urls">All Urls</caption>
+
+			<tr class = "table_header">
+			  <th>Full url</th>
+			  <th>Short</th>
+			  <th>Go</th>
+			  <th># of visits</th>
+	  	</tr>
+
+			  <tr>
+			    <td>http://twitter.github.com/bootstrap/components.html</td>
+			    <td>if28Sn</td>
+			    <td><a href="/if28Sn" target="_blank"><i class="icon-circle-arrow-right"></i></a></td>
+			    <td style="text-align:center">0</td>
+			  </tr>
+
+		</table>
+	</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+      <title>Compound Bling</title>
+      <meta content='App_Name' name='description'>
+        <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+        <link href="/assets/bootstrap_and_overrides.css?body=1" media="all" rel="stylesheet" type="text/css" />
+        <link href="/assets/questions.css?body=1" media="all" rel="stylesheet" type="text/css" />
+        <link href="/assets/static_pages.css?body=1" media="all" rel="stylesheet" type="text/css" />
+        <link href="/assets/tests.css?body=1" media="all" rel="stylesheet" type="text/css" />
+        <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+        <script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-transition.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-affix.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-alert.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-button.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-carousel.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-collapse.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-dropdown.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-modal.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-scrollspy.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-tab.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-tooltip.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-popover.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap-typeahead.js?body=1" type="text/javascript"></script>
+        <script src="/assets/bootstrap.js?body=1" type="text/javascript"></script>
+        <script src="/assets/questions.js?body=1" type="text/javascript"></script>
+        <script src="/assets/static_pages.js?body=1" type="text/javascript"></script>
+        <script src="/assets/tests.js?body=1" type="text/javascript"></script>
+        <script src="/assets/application.js?body=1" type="text/javascript"></script>
+        <meta content="authenticity_token" name="csrf-param" />
+        <meta content="JLWb1fNHL4n/MffqoIIhr4SfOjCQBXo3zJ6/aeAQhLQ=" name="csrf-token" />
+        
+      </meta>
+    </meta>
+  </head>
+  <body>
+    <header class='navbar navbar-fixed-top'>
+      <nav class='navbar-inner'>
+        <div class='container'>
+          <a href="/" class="brand">Compound Bling</a>
+          <ul class='nav'>
+            <li><a href="/static_pages/about">About</a></li>
+            <li>
+              <a href="/users/sign_in">Login</a>
+            </li>
+            <li>
+              <a href="/users/sign_up">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id='main' role='main'>
+      <div class='container'>
+        <div class='content'>
+          <div class='row'>
+            <div class='span12'>
+              
+              <h2 class='hero'>Learn programming by making practice tests and taking them until you can get 100%.  Master topics by acing practice tests created by your peers.</h2>
+              <h3><a href="/users/sign_in">Log in to make your own tests</a></h3>
+              <table>
+                <tr>
+                  <td>
+                    <h3><a href="/tests/1">Ruby</a></h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3><a href="/tests/2">Intermediate Ruby</a></h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3><a href="/tests/3">jQuery Intro</a></h3>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <footer>Made by Powers | Hack to make the world better</footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

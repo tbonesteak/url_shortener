@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pollster</title>
+  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/custom.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/polls.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/questions.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/polls.js?body=1" type="text/javascript"></script>
+<script src="/assets/questions.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="xUR+WnI3lPAoV86CKGs2ywhc3FTpwt6c/JOM5jpdujc=" name="csrf-token" />
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<header class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<a href="/" id="logo">Pollster</a>
+	</div>
+</header>
+			<a href="/polls/new" class="create-btn-home btn btn-mini btn-danger pull-right">Create New Poll</a>
+<table class="table table-striped table-bordered">
+	<tr>
+		<th>#</th>
+		<th>Poll Name</th>
+		<th>Details</th>
+	</tr>
+	<tr>
+		<td><span class="badge badge-info">1</span></td>
+		<td>2016 Presidential Hopefuls</td>
+		<td><a href="/polls/1">Take Poll</a></td>
+	</tr>
+	<tr>
+		<td><span class="badge badge-info">2</span></td>
+		<td>Most Hated Current NBA Player</td>
+		<td><a href="/polls/2">Take Poll</a></td>
+	</tr>
+	<tr>
+		<td><span class="badge badge-info">3</span></td>
+		<td>Best DBC Cohort</td>
+		<td><a href="/polls/3">Take Poll</a></td>
+	</tr>
+	<tr>
+		<td><span class="badge badge-info">4</span></td>
+		<td>Most Feared U.S. City</td>
+		<td><a href="/polls/4">Take Poll</a></td>
+	</tr>
+	<tr>
+		<td><span class="badge badge-info">5</span></td>
+		<td>Best Dog Breed</td>
+		<td><a href="/polls/5">Take Poll</a></td>
+	</tr>
+	<tr>
+		<td><span class="badge badge-info">6</span></td>
+		<td>2013 NBA Champions</td>
+		<td><a href="/polls/6">Take Poll</a></td>
+	</tr>
+	<tr>
+		<td><span class="badge badge-info">7</span></td>
+		<td>What website do you spend the most time on</td>
+		<td><a href="/polls/7">Take Poll</a></td>
+	</tr>
+	<tr>
+		<td><span class="badge badge-info">8</span></td>
+		<td>Favorite open-source gem on GitHub</td>
+		<td><a href="/polls/8">Take Poll</a></td>
+	</tr>
+	<tr>
+		<td><span class="badge badge-info">9</span></td>
+		<td>Do you use Twitter Bootstrap</td>
+		<td><a href="/polls/9">Take Poll</a></td>
+	</tr>
+	<tr>
+		<td><span class="badge badge-info">10</span></td>
+		<td>Will Apple get to a trillion dollars</td>
+		<td><a href="/polls/10">Take Poll</a></td>
+	</tr>
+	<tr>
+		<td><span class="badge badge-info">11</span></td>
+		<td>Will the world end on Dec. 21st, 2012</td>
+		<td><a href="/polls/11">Take Poll</a></td>
+	</tr>
+</table>
+		</div>
+	</div>
+</body>
+</html>

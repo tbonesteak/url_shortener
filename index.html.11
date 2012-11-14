@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SimpleBlog</title>
+  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/articles.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/articles.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="saxivJzJfI2AJDg2ucBLIBdnqbeTydViOLydXpU9gAA=" name="csrf-token" />
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Blog</h1>     
+<div class="row"> 
+  <div class="span4 offset8">
+    <span class="pull-right">
+      <a href="/articles/new" class="btn">New Article</a>
+    </span>
+  </div>
+</div>
+<hr>
+
+      <div class="article">
+    <h3>Test</h3>
+    <p>
+      Test
+      <br>
+      <a href="/articles/1">Show</a> | 
+      <a href="/articles/1/edit">Edit</a> | 
+      <a href="/articles/1" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+    </p>
+  </div>
+  <div class="article">
+    <h3>Test</h3>
+    <p>
+      Test
+      <br>
+      <a href="/articles/2">Show</a> | 
+      <a href="/articles/2/edit">Edit</a> | 
+      <a href="/articles/2" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+    </p>
+  </div>
+  <div class="article">
+    <h3>Test</h3>
+    <p>
+      Test
+      <br>
+      <a href="/articles/3">Show</a> | 
+      <a href="/articles/3/edit">Edit</a> | 
+      <a href="/articles/3" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+    </p>
+  </div>
+  <div class="article">
+    <h3>Test</h3>
+    <p>
+      Test
+      <br>
+      <a href="/articles/4">Show</a> | 
+      <a href="/articles/4/edit">Edit</a> | 
+      <a href="/articles/4" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+    </p>
+  </div>
+  <div class="article">
+    <h3>Test</h3>
+    <p>
+      Test
+      <br>
+      <a href="/articles/5">Show</a> | 
+      <a href="/articles/5/edit">Edit</a> | 
+      <a href="/articles/5" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+    </p>
+  </div>
+  <div class="article">
+    <h3>Test</h3>
+    <p>
+      Test
+      <br>
+      <a href="/articles/6">Show</a> | 
+      <a href="/articles/6/edit">Edit</a> | 
+      <a href="/articles/6" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+    </p>
+  </div>
+  <div class="article">
+    <h3>Test</h3>
+    <p>
+      Test
+      <br>
+      <a href="/articles/7">Show</a> | 
+      <a href="/articles/7/edit">Edit</a> | 
+      <a href="/articles/7" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+    </p>
+  </div>
+  <div class="article">
+    <h3>my new kitten</h3>
+    <p>
+      my new kitten loves her new bowl
+      <br>
+      <a href="/articles/8">Show</a> | 
+      <a href="/articles/8/edit">Edit</a> | 
+      <a href="/articles/8" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+    </p>
+  </div>
+  <div class="article">
+    <h3>kitten test</h3>
+    <p>
+      kitten test
+      <br>
+      <a href="/articles/9">Show</a> | 
+      <a href="/articles/9/edit">Edit</a> | 
+      <a href="/articles/9" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+    </p>
+  </div>
+  <div class="article">
+    <h3>yo</h3>
+    <p>
+      kitten are kool
+      <br>
+      <a href="/articles/10">Show</a> | 
+      <a href="/articles/10/edit">Edit</a> | 
+      <a href="/articles/10" data-confirm="Are you sure?" data-method="delete" rel="nofollow">Destroy</a>
+    </p>
+  </div>
+
+  </div>
+
+</body>
+</html>

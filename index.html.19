@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HnClone</title>
+  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/comments.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/posts.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/comments.js?body=1" type="text/javascript"></script>
+<script src="/assets/posts.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="C8WCLo7+M8KerLT0V8A91m25jt8bHLrwqmySuJMHjSw=" name="csrf-token" />
+</head>
+<body>
+  <p></p>
+  <p class="notice"></p>
+  <p class="alert"></p>
+<h1>Here are all of your posts</h1>
+
+Posts
+  <ul>
+    <li><a href="http://news.ycombinator.com/">HN</a></li>
+    <li><a href="/posts/2/edit">Edit</a></li>
+    <li><a href="/posts/2" data-method="delete" rel="nofollow">Delete</a></li>
+    <li><a href="/posts/2">Comments</a></li>
+  </ul>
+  <ul>
+    <li><a href="http://www.discoposse.com/index.php/2010/12/06/nice-flash-messages-in-rails-2-and-rails-3/">Flash</a></li>
+    <li><a href="/posts/5/edit">Edit</a></li>
+    <li><a href="/posts/5" data-method="delete" rel="nofollow">Delete</a></li>
+    <li><a href="/posts/5">Comments</a></li>
+  </ul>
+  <ul>
+    <li><a href="http://www.hampsterdance.com">This is the coolest site ever!</a></li>
+    <li><a href="/posts/6/edit">Edit</a></li>
+    <li><a href="/posts/6" data-method="delete" rel="nofollow">Delete</a></li>
+    <li><a href="/posts/6">Comments</a></li>
+  </ul>
+  <ul>
+    <li><a href="http://www.hampsterdance.com">this damn site is addicting</a></li>
+    <li><a href="/posts/7/edit">Edit</a></li>
+    <li><a href="/posts/7" data-method="delete" rel="nofollow">Delete</a></li>
+    <li><a href="/posts/7">Comments</a></li>
+  </ul>
+
+<pre class='debug_dump'>--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+controller: posts
+action: index
+</pre>
+</body>
+</html>

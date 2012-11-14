@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Whatthepup</title>
+  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/posts.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/sessions.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/users.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/posts.js?body=1" type="text/javascript"></script>
+<script src="/assets/sessions.js?body=1" type="text/javascript"></script>
+<script src="/assets/users.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="7CtQc2ie/NWJ59DtlZxhlC+LeVXvUYr9Bes21vLH2GY=" name="csrf-token" />
+</head>
+<body>
+
+<div id = "header">
+  <div id = "logo">
+     <a href="home">What the Pup is Up?</a> |<span id = "logged_in_as"> logged in as:  </span>
+  </div>
+
+  <div id = "nav_links">
+    <a href="home">home</a> |
+    <a href="profile">profile</a> |
+      <a href="login">login</a>
+      <a href="signup">sign up</a>
+  </div>
+</div>
+
+<div id= "flash_notices">
+</div>
+
+
+
+
+
+<div class= "Sign_Form">
+  <h1>Log in</h1>
+  <form accept-charset="UTF-8" action="/sessions/login_attempt" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="7CtQc2ie/NWJ59DtlZxhlC+LeVXvUYr9Bes21vLH2GY=" /></div>
+    <p>Email:</br> <input id="email" name="email" type="text" /></p>
+    <p>Password:</br> <input id="login_password" name="login_password" type="password" /></p>
+    <input name="commit" type="submit" value="Log In" />
+</form></div>
+
+
+
+</body>
+</html>

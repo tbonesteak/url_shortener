@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo</title>
+  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="AJbe9c3e7O2MfcsAbV5miv9B3iDpqhcIDY4UD3myMHg=" name="csrf-token" />
+</head>
+<body>
+
+<h1>My Lists </h1>
+
+List 1 : <a href="/lists/1">Home List!</a> <br />
+List 2 : <a href="/lists/2">Fantastic List</a> <br />
+
+<h3>Create New List</h3>
+<form accept-charset="UTF-8" action="/lists" class="new_list" id="new_list" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="AJbe9c3e7O2MfcsAbV5miv9B3iDpqhcIDY4UD3myMHg=" /></div>
+  <label for="list_name">List Name</label>: <input id="list_name" name="list[name]" size="30" type="text" /> <input name="commit" type="submit" value="Create List" />
+</form>
+
+
+
+</body>
+</html>

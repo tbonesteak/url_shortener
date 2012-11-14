@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UrlShortener</title>
+    <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/links.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/redirects.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/scaffolds.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/users.css?body=1" media="all" rel="stylesheet" type="text/css" />
+    <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/links.js?body=1" type="text/javascript"></script>
+<script src="/assets/redirects.js?body=1" type="text/javascript"></script>
+<script src="/assets/users.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="2RtpGuTELIlh3X9peFCDjC4fw5rJGvCi/3DPAABLYr8=" name="csrf-token" />
+  </head>
+  <body>
+    
+    <form accept-charset="UTF-8" action="/sessions" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2RtpGuTELIlh3X9peFCDjC4fw5rJGvCi/3DPAABLYr8=" /></div>
+  <label for="email">Email</label>
+  <input id="email" name="email" type="text" />
+  <label for="password">Password</label>
+  <input id="password" name="password" type="password" />
+  <input name="commit" type="submit" value="login" />
+</form>
+
+  </body>
+</html>

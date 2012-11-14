@@ -1,0 +1,10 @@
+<h1>Urls#new</h1>
+  <p><%= form_for @url do |u| %>
+    URL to shorten:
+      <%= u.text_field :original_url%><br /><br />
+    URL short_version:
+      <%= u.text_field :short_url%><br /><br />
+      <%= u.submit %>
+    <% end %>
+  </p>
+

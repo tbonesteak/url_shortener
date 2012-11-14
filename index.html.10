@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pollster</title>
+  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/polls.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/questions.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/polls.js?body=1" type="text/javascript"></script>
+<script src="/assets/questions.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="kf2FPVBW9LOT6uISTKLOQf2EJXp3qtK9+rbPE56Rhtg=" name="csrf-token" />
+</head>
+<body>
+<div class="container">
+
+	<pre class='debug_dump'>--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+controller: polls
+action: new
+</pre>
+</div>
+
+
+<div><h1>Create a poll</h1></div>
+
+<form accept-charset="UTF-8" action="/polls" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kf2FPVBW9LOT6uISTKLOQf2EJXp3qtK9+rbPE56Rhtg=" /></div>
+
+  <div class="field">
+  	<label for="poll_name">Name</label>
+  	<input class="span5" id="poll_name" name="poll[name]" size="30" type="text" />
+  </div>
+
+  <div class="actions">
+  	<input class="btn" name="commit" type="submit" value="Save Poll" />
+  </div>
+
+</form>
+
+
+
+
+</body>
+</html>

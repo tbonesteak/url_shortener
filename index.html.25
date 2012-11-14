@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Swiv</title>
+  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/bootstrap_and_overrides.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/static_pages.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-transition.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-alert.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-modal.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-tab.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-popover.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-button.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-affix.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap.js?body=1" type="text/javascript"></script>
+<script src="/assets/bootstrap.js?body=1" type="text/javascript"></script>
+<script src="/assets/static_pages.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="FCmkyiKuEtMwK590z8Z6h7tWzr3F7wVrUUcO1yPcY9U=" name="csrf-token" />
+</head>
+<body>
+<div class="container">
+
+  <div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">Swiv!</a>
+    <ul class="nav">
+      <li><a href="/">Index</a></li>
+      <li><a href="/shows">Shows</a></li>
+    </ul>
+    <ul class="nav pull-right">
+        <li><a href="/users/sign_in">Sign in</a></li>
+        <li><a href="/users/sign_up">| Sign up</a></li>
+    </ul>
+  </div>
+</div>
+
+
+  <div class="hero-unit" id="hero-main">
+    <h1>Find a show</h1>
+    <form accept-charset="UTF-8" action="@show" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="FCmkyiKuEtMwK590z8Z6h7tWzr3F7wVrUUcO1yPcY9U=" /></div>
+      <input id="textfield-main" name="search" type="text" />
+      <input class="btn btn-large" type="submit" value="Search" /> 
+</form></div>
+
+
+</div>
+</body>
+</html>

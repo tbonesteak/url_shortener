@@ -1,4 +1,13 @@
 UrlShortner::Application.routes.draw do
+
+  root :to => 'urls#new'
+
+  resources :urls
+
+  match '/:short_url' => 'urls#show_original_page'
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

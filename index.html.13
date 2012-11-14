@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pollster</title>
+  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/bootstrap_and_overrides.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/questions.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-transition.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-alert.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-modal.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-tab.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-popover.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-button.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap/bootstrap-affix.js?body=1" type="text/javascript"></script>
+<script src="/assets/twitter/bootstrap.js?body=1" type="text/javascript"></script>
+<script src="/assets/bootstrap.js?body=1" type="text/javascript"></script>
+<script src="/assets/questions.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="xJyqCtaj+Wrqo0vKkBsYvSA1xkRFBRIywE1JbFYDjf8=" name="csrf-token" />
+</head>
+<body>
+<div class="container">
+  <h1>All Polls</h1>
+
+  <table>
+    <tr>
+      <th>poll 1</th>
+      <th><a href="/polls/1">Edit</a></th>
+      <th><a href="http://localhost:3000/2sq">shortened</a></th>
+      <th><a href="/polls/1/results">results</a></th>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <th>poll 2</th>
+      <th><a href="/polls/2">Edit</a></th>
+      <th><a href="http://localhost:3000/zSM">shortened</a></th>
+      <th><a href="/polls/2/results">results</a></th>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <th>new poll</th>
+      <th><a href="/polls/3">Edit</a></th>
+      <th><a href="http://localhost:3000/6jv">shortened</a></th>
+      <th><a href="/polls/3/results">results</a></th>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <th>Trust Me With Your Heart?</th>
+      <th><a href="/polls/4">Edit</a></th>
+      <th><a href="http://localhost:3000/1qU">shortened</a></th>
+      <th><a href="/polls/4/results">results</a></th>
+    </tr>
+  </table>
+<br><br>
+<a href="/polls/new">Create New Poll</a>
+</div>
+
+</body>
+</html>
